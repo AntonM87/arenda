@@ -1,0 +1,328 @@
+@charset "UTF-8";
+* {
+  font-family: "PT Sans";
+  box-sizing: border-box;
+}
+
+header.container-fluid {
+  box-shadow: inset 0px 156px 78px -159px black;
+  background: #ffb502;
+  height: 100px;
+}
+
+header.container-fluid div.container {
+  height: 100%;
+}
+
+nav {
+  margin-left: 70px;
+}
+
+.backgroundForPixelPerfect img {
+  z-index: 1;
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.forCharacteristics {
+  display: none;
+}
+
+div.header-left-block div:first-child p {
+  background-image: url("../img/backgroundArenda.png");
+  background-repeat: no-repeat;
+  background-size: 143px 60px;
+  background-position: 0px 5px;
+  padding: 15px 30px;
+  width: 145px;
+  margin-left: 100px;
+  margin-top: 15px;
+  font-family: Impact;
+  font-size: 28px;
+}
+
+div.header-left-block div:last-child p {
+  margin: 35px 0px 0px -25px;
+  text-transform: uppercase;
+  font-family: "PT Sans";
+  font-size: 15px;
+}
+
+div.header-right-block p {
+  text-align: right;
+  margin: 35px 0px 0px 235px;
+  font-size: 14px;
+}
+
+.container-fluid .container div.main-link-list {
+  width: 85%;
+  height: 52px;
+  margin: -3px auto 0 auto;
+}
+
+.container-fluid .container div.main-link-list div.col-md-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid .container div.main-link-list div.col-md-2 a {
+  margin-top: 5px;
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #5d5d5d;
+  transition: all linear .2s;
+}
+
+.container-fluid .container div.main-link-list div.col-md-2 a:hover {
+  color: black;
+}
+
+.carousel {
+  margin-top: 50px;
+  background: #ffb502;
+  height: 550px;
+}
+
+.overflow-border {
+  height: 498px;
+  overflow: hidden;
+}
+
+.main-border-container {
+  height: 495px;
+  position: relative;
+  left: 0;
+  transition: all linear 0.5s;
+}
+
+.main-border-container .content-container {
+  display: inline-block;
+}
+
+.main-border-container .content-container div:nth-child(1) p {
+  position: relative;
+  left: 525px;
+  top: 25px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.main-border-container .content-container div:nth-child(2) p {
+  position: relative;
+  right: -630px;
+  top: -25px;
+  font-size: 60px;
+  color: #fff;
+}
+
+.main-border-container .content-container div:nth-child(3) p {
+  position: relative;
+  right: -695px;
+  top: -60px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-border-container .content-container img {
+  margin: -185px 1px 1px 95px;
+}
+
+.container {
+  position: relative;
+}
+
+.container .inputs-container {
+  position: absolute;
+  top: 0;
+  right: 100px;
+}
+
+.container .inputs-container div {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  background: black;
+  margin-top: 15px;
+}
+
+.container .inputs-container div.active {
+  border: 1px solid #000000;
+  background: #ffc53d;
+  transition: all linear 0.5s;
+}
+
+div.btn-container div {
+  margin: -8px auto 0 auto;
+  width: max-content;
+}
+
+div.btn-container div img {
+  cursor: pointer;
+}
+
+div.btn-container div img:last-child {
+  position: relative;
+  top: 29px;
+  left: -4px;
+}
+
+ol.breadcrumb {
+  background: #fff;
+}
+
+li.breadcrumb-item {
+  margin-top: 25px;
+}
+
+li.breadcrumb-item a:nth-child(1) {
+  color: #ffb502;
+}
+
+li.breadcrumb-item a:nth-child(2) {
+  color: #ffb502;
+}
+
+li.breadcrumb-item a:nth-child(3) {
+  color: #000;
+}
+
+.excavatorCharacterictics {
+  margin: 35px 0px 0px 70px;
+}
+
+.characteristics .col-md-8 h5 {
+  margin: 35px 0px 0px 35px;
+}
+
+.characteristics .col-md-8 div.accordion {
+  cursor: pointer;
+}
+
+.characteristics .col-md-8 div.accordion h4 {
+  width: 87%;
+  padding: 5px 20px;
+  margin: 20px 0px 0px 20px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-shadow: 10px 10px 26px -6px rgba(0, 0, 0, 0.75);
+}
+
+.characteristics .col-md-8 div.accordion .arrowUp {
+  display: none;
+  float: right;
+  margin: -30px 90px 0px 0px;
+}
+
+.characteristics .col-md-8 div.accordion .arrowDown {
+  margin: -30px 90px 0px 0px;
+  float: right;
+}
+
+#сharacterictics {
+  transition: all linear .2s;
+  overflow: hidden;
+  height: 190px;
+}
+
+#сharacterictics label {
+  display: block;
+  margin: 25px 0px 25px 50px;
+}
+
+.checkbox {
+  display: none;
+}
+
+.checkbox-custom {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: -25px;
+  border: 1px solid black;
+}
+
+.checkbox-custom,
+.label {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.checkbox:checked + .checkbox-custom::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  bottom: 4px;
+  left: 4px;
+  background: #413548;
+}
+
+div.information {
+  margin-top: -15px;
+}
+
+#forInformation p {
+  display: block;
+  overflow: hidden;
+  height: 0px;
+  transition: all linear .2s;
+  margin: 25px 75px 25px 30px;
+}
+
+p#forInputsCharacteristicsTarget {
+  font-size: 24px;
+  margin: -15px 0px 0px 20px;
+}
+
+button.btn {
+  font-size: 12px;
+  background: #ffc53d;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding: 10px 40px;
+  margin: -20px 0px 0px -70px;
+}
+
+button.btn:hover {
+  text-decoration: none;
+}
+
+div.services-h3 {
+  text-transform: uppercase;
+}
+
+.bordered {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #5d5d5d;
+}
+
+div.yellowBG {
+  background: #ffb502;
+  height: 500px;
+}
+
+div.yellowBG .col-md-6 {
+  height: 250px;
+}
+
+div.services .container-fluid {
+  background: #ffb502;
+  height: 500px;
+}
+
+.secondRowSerices .container,
+.firstRowSerices .container {
+  max-width: 70%;
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */
